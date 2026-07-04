@@ -1,15 +1,5 @@
-import Layout from "./app/layout";
-
 function App() {
-  return (
-    <Layout>
-      <main className="flex min-h-screen items-center justify-center">
-        <h1 className="text-6xl font-bold tracking-tight">
-          InterviewAI
-        </h1>
-      </main>
-    </Layout>
-  );
+  return <h1>InterviewAI</h1>;
 }
 
 export default App;
