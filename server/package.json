@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "dev": "tsx watch src/server.ts",
-  "start": "node dist/server.js"
-},
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,9 +19,10 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-rate-limit": "^8.5.2",
+    "express-validator": "^7.3.2",
     "helmet": "^8.2.0",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.7.3",
+    "mongoose": "^9.7.4",
     "morgan": "^1.11.0",
     "zod": "^4.4.3"
   },
